@@ -180,14 +180,6 @@ WiFiServer server(80);
 // Variable to store the HTTP request
 String header;
 
-// Auxiliar variables to store the current output state
-String output26State = "off";
-String output27State = "off";
-
-// Assign output variables to GPIO pins
-const int output26 = 26;
-const int output27 = 27;
-
 void showBanner() {
   // Show logo on the display hardware.
   clearScreen();
@@ -477,14 +469,6 @@ void loop() {
               Serial.println("Green on");
               colorWipe(strip.Color(0, BRIGHTNESS, 0, 0), 1);
               delay(10000);
-            } else if (header.indexOf("GET /27/on") >= 0) {
-              Serial.println("GPIO 27 on");
-              output27State = "on";
-              digitalWrite(output27, HIGH);
-            } else if (header.indexOf("GET /27/off") >= 0) {
-              Serial.println("GPIO 27 off");
-              output27State = "off";
-              digitalWrite(output27, LOW);
             }
 
             // Display the HTML web page
