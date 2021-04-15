@@ -2,6 +2,7 @@
   Neopixel Frame
   Tim Pozar
   pozar@LNS.com
+  Copyright (c) 2021 Tim Pozar - See attached MIT License
   A bunch of code lifted from various Adafruit and other examples.
 ****************************************************************/
 
