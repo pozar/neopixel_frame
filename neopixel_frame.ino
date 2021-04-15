@@ -170,8 +170,8 @@ IPAddress primaryDNS(8, 8, 8, 8);   // optional
 IPAddress secondaryDNS(8, 8, 4, 4); // optional
 
 // Replace with your network credentials
-const char* ssid     = "KimsFrame";
-const char* password = "perkypenguins";
+const char* ssid     = "NeoPixelFrame";
+const char* password = "1234567890";
 
 // Set web server port number to 80
 WiFiServer server(80);
@@ -498,7 +498,7 @@ void loop() {
             client.println(".button2 {background-color: #555555;}</style></head>");
 
             // Web Page Heading
-            client.println("<body><h1>Kim's Neopixel Frame</h1>");
+            client.println("<body><h1>Neopixel Frame</h1>");
 
             client.println("<p>Purple</p>");
             client.println("<p><a href=\"/purple/on\"><button class=\"button\">ON</button></a></p>");
