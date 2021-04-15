@@ -1,10 +1,9 @@
-
-/*********
+/****************************************************************
   Neopixel Frame
   Tim Pozar
   pozar@LNS.com
   A bunch of code lifted from various Adafruit and other examples.
-*********/
+****************************************************************/
 
 /*********
   WAP and Web server code taken from:
@@ -12,7 +11,7 @@
   Complete project details at https://randomnerdtutorials.com
 *********/
 
-/*  
+/*********
   Control a RGB led with Hue, Saturation and Brightness (HSB / HSV )
   https://www.kasperkamperman.com/blog/arduino/arduino-programming-hsb-to-rgb/
   Hue is change by an analog input. 
@@ -23,7 +22,7 @@
   dim_curve idea by Jims
 
   created 05-01-2010 by kasperkamperman.com
-*/
+*********/
 
 #define REV   "20210414.01"
 
@@ -532,3 +531,4 @@ void loop() {
     Serial.println("");
   }
 }
+
