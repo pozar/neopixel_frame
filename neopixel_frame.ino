@@ -200,7 +200,7 @@ void showBanner() {
   display.setCursor(35, 16);
   display.print("LNS.com");
   display.setCursor(35, 24);
-  display.print("©2021 Tim Pozar");
+  display.print("(c)2021 T Pozar");
   display.display();
   delay(5000);
 }
