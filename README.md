@@ -20,3 +20,7 @@ Libraries needed:
 * foo
 * bar
 * foo
+
+## Wiring 
+
+![Neopixel Frame Wiring](Neopixel_Frame_Wiring.png)
