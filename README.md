@@ -24,3 +24,6 @@ Libraries needed:
 ## Wiring 
 
 ![Neopixel Frame Wiring](Neopixel_Frame_Wiring.png)
+
+## Frame Construction
+
